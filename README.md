@@ -55,9 +55,9 @@ Without a passcode the page is open to anyone who has the address. To require on
    **Production and Preview**.
 3. **Redeploy** (Deployments → ⋯ on the latest → Redeploy). Environment variables only take
    effect on a new deployment.
-4. Check it: open the site in a private/incognito window. You must see the "Office passcode"
-   page. If the quote form appears instead, the passcode is not active (wrong variable name,
-   not applied to this environment, or not redeployed).
+4. Check it: open `https://<your site>/__gate`. It answers `gate: on.` when the passcode is
+   active, or says what is missing. Then open the site in a private/incognito window: you must
+   see the "Office passcode" page.
 
 Visitors then see the passcode page once; a cookie keeps them signed in for 180 days on that
 browser. Changing the passcode signs everyone out. A passcode shorter than 12 characters is
