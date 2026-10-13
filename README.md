@@ -1,5 +1,7 @@
 # Ross Machinery Quote Generator
 
+Repository: github.com/1688ross/rms-quote-generator. Vercel deploys from `main`.
+
 The office's quote form as a static website: fill in the form, watch the Letter-size preview,
 download a branded PDF. Everything runs in the browser. No server, no database, no account.
 
